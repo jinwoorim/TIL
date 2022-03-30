@@ -1,6 +1,6 @@
 # git clone
 
-## make repo first on the github, ather local
+## Make repo first on the github, after local (top down)
 
 ```shell
 0. We make repo onthe github. And we write git clone (repo address) on the dev
@@ -16,4 +16,21 @@
 
 
 # git init
-write yet
+
+```shell
+
+1. mkdir second-repo
+2. cd second-repo
+3. git init
+ //after creating remote repo on github,
+4. git remote add mask{repo_url}
+
+ // After doing some work,
+
+5. git add{filename}
+6. git commit
+7. git branch -M main
+8. git push -u mask main
+
+```
+
