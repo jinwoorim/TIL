@@ -17,6 +17,8 @@
 
 # git init
 
+## Make dir first on the git (bottom up)
+
 ```shell
 
 1. mkdir second-repo
