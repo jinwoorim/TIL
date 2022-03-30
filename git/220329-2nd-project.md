@@ -42,4 +42,10 @@ Today, i learned about how to make github blog.
 # Make a themes
 
 ```shell
-1. 
+1. npm install hexo-theme-(theme name)
+2. vi _config.yml
+3. theme: (theme name)
+4. hexo clean && hexo deploy
+
+```
+
