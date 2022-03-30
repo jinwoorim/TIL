@@ -3,6 +3,8 @@
 ## make repo first on the github, ather local
 
 ```shell
+0. We make repo onthe github. And we write git clone (repo address) on the dev
+
 1. We fix file or something on git
 2. Write git status, then you can show comment like changes not staged for commit
 3. git add (file name)
