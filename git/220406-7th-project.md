@@ -27,3 +27,38 @@
 Two click of spacebar or </br>
 
 ```
+
+# 강조(Emphasis)
+
+_이텔릭_
+**두껍게**
+**_이텔릭 + 두껍게_**
+~~취소선~~
+<u>밑줄</u>
+
+# 목록(List)
+
+1. 순서가 필요한 목록
+1. 순서가 필요한 목록
+1. 순서가 필요한 목록
+    1. 순서가 필요한 목록
+    1. 순서가 필요한 목록
+1. 순서가 필요한 목록
+
+- 순서가 필요하지 않은 목록
+- 순서가 필요하지 않은 목록
+- 순서가 필요하지 않은 목록
+    - 순서가 필요하지 않은 목록
+    - 순서가 필요하지 않은 목록
+- 순서가 필요하지 않은 목록
+
+# 링크(Links)
+
+[GOOLE](https://www.google.co.kr/)
+
+# 이미지(Images)
+
+![GOOLE LOGO](<img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="image8-2">)
+
+[![GOOLE LOGO](<img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="image8-2">)](https://blog.hubspot.com/)
+
