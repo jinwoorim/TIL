@@ -63,4 +63,8 @@ message-header : 서버가 브라우저한테 응답하는 문서정보
 
 message-body : 요청한 문서의 실질적정보
 
-##get방식 post방식
+## GET방식 POST방식
+
+- GET방식 : 브라우저가 URL을 통해 서버에게 요청할때
+
+- POST방식 : 입력된 정보가 노출되지않도록 message-body에 포함시켜 전달하는것(로그인같은것)
