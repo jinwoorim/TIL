@@ -26,3 +26,23 @@
 # Servlet Container(서버 엔진)
 
 - web.xml을 통해 어떤 객체를 저장하고 관리하는 역할
+
+- web.xml의 서블릿 클래스에서 하나의 객체만 생성
+
+# 서버
+
+- 브라우저가 서버에 요청을 할때 정적인건 Web Server에서 해결, 동적인건 서버엔진에서 해결
+
+# Servlet 라이프사이클
+
+```shell
+
+- 브라우저가 서버에 최초요청 -> 메모리에 servlet class 올림 -> 객체생성 -> 오버라이딩된 init 메서드가 있다면 호출
+
+- 브라우저가 서버에 요청(최초x) -> Tread -> 오버라이딩된 service 메서드가 있다면 service 메서드 호출
+- 브라우저가 서버에 요청(최초x) -> Tread -> service메서드 오버라이딩 안되어있으면 -> 요청방식에 따라 doGet or doPost 메서드 호출
+
+```
+# Annotation 설정
+
+- web.xml의 servlet부분을 없애고 Servlet에 @WebServlet("URL 요청")
