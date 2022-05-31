@@ -27,7 +27,7 @@
     - 둘 다 DB연동을 자바코드 한줄로 표현 가능하다
 
 
-# Sring
+# Spring
 
 - 여러 Framework 모듈을 집합해놓은것
 
