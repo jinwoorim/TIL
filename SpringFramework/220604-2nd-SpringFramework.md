@@ -30,11 +30,11 @@
 
 - 새로운 네임스페이스를 추가한다는 것은 다른 태그들 즉, 다른 종류의 작업을 지시 가능하도록 한다 
 
-## XML 파일에서 <bean> 태크
+## XML 파일에서 <bean/> 태크
 
-- <bean> 태크를 사용해서 스프링 컨터이너가 xml 파일을 읽어들일 때 자동생성할 객체에 대한 클래스를 작성한다
+- <bean/> 태크를 사용해서 스프링 컨터이너가 xml 파일을 읽어들일 때 자동생성할 객체에 대한 클래스를 작성한다
 
-- <bean> 태그에는 id가 생략 가능하다. 하지만 class 속성은 필수다
+- <bean/> 태그에는 id가 생략 가능하다. 하지만 class 속성은 필수다
 
 - id 속성 값은 반드시 전체 객체에서 유일해야한다
 
@@ -53,13 +53,13 @@
 
 ## Constructor Injection(dependency injection)
 
-- <constructor-arg> 태그를 이용하여 생성자를 호출한다
+- <constructor-arg/> 태그를 이용하여 생성자를 호출한다
 
 - 컨테이너는 디폴트 생성자만 호출하기때문에 매개변수가 다른 생성자를 호출하기 위함
 
 ## Setter Injection(dependency injection)
 
-- <property> 태그를 이용하여 생성자를 호출한다
+- <property/> 태그를 이용하여 생성자를 호출한다
 
 - set 메소드 만드는 것
 
