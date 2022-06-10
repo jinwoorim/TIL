@@ -47,4 +47,4 @@
 
     around :필터링된 비즈니스 메소드 실행 전 후 둘다
 ```
-- Aspect(=Advisor) : Pointcut + Advice 
+- Aspect(=Advisor) : Pointcut + Advice를 연결해주는 연결고리 
