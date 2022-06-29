@@ -16,4 +16,4 @@
 	해당 메소드 위에 @RequestMapping(value = "요청 uri", method = RequestMethod.GET)
 ```
 
-- @ResponseBody // @ResponseBody는 리턴 값을 JSON으로 변환하여 응답 프로토콜 Body에 출력한다(콘솔말고 브라우저에 메세지 띄우기)
+- @ResponseBody : @ResponseBody는 리턴 값을 JSON으로 변환하여 응답 프로토콜 Body에 출력한다(콘솔말고 브라우저에 메세지 띄우기)
