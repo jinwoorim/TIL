@@ -17,3 +17,5 @@
 ```
 
 - @ResponseBody : @ResponseBody는 리턴 값을 JSON으로 변환하여 응답 프로토콜 Body에 출력한다(콘솔말고 브라우저에 메세지 띄우기)
+
+- @RestController : 메소드 마다 @ResponseBody를 붙여야하는걸 controller클래스 위에 @RestController 붙여 퉁친다
