@@ -21,6 +21,15 @@
 	3. pom.xml 체크하고 finish
 ```
 
+- 만약 다운 받은 스타터에서 특정 JAR파일 버전을 바꾸고싶을 때
+
+```shell
+	1. pom.xml에 parent가 있다(pom.xml은 상속이 가능)
+	2. parent의 parent를 따라 들어가면 수많은 property들이 있다
+	3. 그 안에서 해당 사항을 복사해서 pom.xml에 <properties> 안에 붙여넣기
+	4. 버전을 변경한다(오버라이팅)
+```
+
 ## 사용자 정의 스타터 (내가 만든 스타터)
 
 - 사용자 정의 스타터 생성 방법
