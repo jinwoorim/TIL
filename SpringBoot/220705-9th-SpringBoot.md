@@ -34,7 +34,7 @@
 	show-sql : generation한 sql을 콘솔에 보여줄거냐
 	physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl : 테이블의 컬럼이름과 변수이름을 똑같이 해준다
 	ddl-auto : 테이블이 없어도 설정해놓으면 테이블이 자동으로 만들어진다. (create/update/none)
-	use-new-id-generator-mappings : false (ture해놓으면 불안정하다)
+	use-new-id-generator-mappings : false (true해놓으면 불안정하다)
 	properties[hibernate.format_sql] : 생성되는 sql이 한줄로보임(false일때. default : false)
 ```
 ## Entity 설정(DBMS에서 테이블을 생성하지않고 Entity설정을 통해 이클립스에서 역으로 생성할수있다)
