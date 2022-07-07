@@ -33,7 +33,7 @@
 	database-platform : 어떤 DBMS를 사용할건지,최적화해준다
 	show-sql : generation한 sql을 콘솔에 보여줄거냐
 	physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl : 테이블의 컬럼이름과 변수이름을 똑같이 해준다
-	ddl-auto : 테이블이 없어도 설정해놓으면 테이블이 자동으로 만들어진다. (create/none)
+	ddl-auto : 테이블이 없어도 설정해놓으면 테이블이 자동으로 만들어진다. (create/update/none)
 	use-new-id-generator-mappings : false (ture해놓으면 불안정하다)
 	properties[hibernate.format_sql] : 생성되는 sql이 한줄로보임(false일때. default : false)
 ```
